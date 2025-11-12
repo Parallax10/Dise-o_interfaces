@@ -36,7 +36,7 @@ export default function Canvas() {
         <option value="aliceblue">aliceblue</option>
       </select>
       <Background
-        position={initialPosition}
+        position={0}
       />
       <Box
         color={shape.color}
