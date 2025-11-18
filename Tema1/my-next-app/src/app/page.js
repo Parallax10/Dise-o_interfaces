@@ -16,7 +16,6 @@ function App(){
       <Card titulo="Tit2ulo" descripcion="Descripcion" imagen='https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyYTlyNWR6eDh1MXB1eWJicnVtZDR1bm4xZmw4NzV5c3RhaXFwbTU4cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lopx9eUi34rbq/200w.gif'></Card>
       <h1>ej5</h1>
       <UserCard></UserCard>
-
     </div>
   );
 }
