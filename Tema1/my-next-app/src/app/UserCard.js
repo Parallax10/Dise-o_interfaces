@@ -7,7 +7,7 @@ export default function UserCard(){
 return(
     <div>
     {usuarios.map((item,index)=>(
-        <div>
+        <div key={index}> 
         <h2>Usuario:{item.usuario}</h2>
         <p>Contraseña: {item.contraseña}</p>
         </div>

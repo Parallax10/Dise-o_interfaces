@@ -1,4 +1,6 @@
 "use client";
+import ToDoList from "./ToDoList";
+import ToggleSwitch from"./ToggleSwitch";
 import Card from "./Card";
 import Greeting from "./Greeting";
 import Contador from "./Contador";
@@ -31,6 +33,10 @@ export default function Home() {
     <Contador></Contador>
     <h1>ej4</h1>
     <ProductList></ProductList>
+    <h1>ej7</h1>
+    <ToggleSwitch></ToggleSwitch>
+    <h1>ej8</h1>
+    <ToDoList></ToDoList>
   </div>
   );
 }
