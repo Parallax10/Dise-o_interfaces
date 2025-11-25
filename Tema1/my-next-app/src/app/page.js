@@ -1,4 +1,8 @@
 "use client";
+import ShoppingList from "./ShoppingList";
+import ContactForm from "./ContactForm";
+import LoginControl from "./LoginControl";
+import Counter from "./Counter";
 import ToDoList from "./ToDoList";
 import ToggleSwitch from"./ToggleSwitch";
 import Card from "./Card";
@@ -37,6 +41,14 @@ export default function Home() {
     <ToggleSwitch></ToggleSwitch>
     <h1>ej8</h1>
     <ToDoList></ToDoList>
+    <h1>ej9</h1>
+    <Counter></Counter>
+    <h1>ej10</h1>
+    <LoginControl></LoginControl>
+    <h1>ej12</h1>
+    <ContactForm></ContactForm>
+    <h1>ej13</h1>
+    <ShoppingList></ShoppingList>
   </div>
   );
 }
